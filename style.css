@@ -5,15 +5,23 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    color: white;
 }
 
 
-.logo-links{
+.logo-links {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: black;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     align-items: center;
-    height: 42px;
+    
+
+    
 }
 
 
@@ -22,7 +30,7 @@ body {
     background-color: black;
     color: white;
     flex-direction: column;
-
+    
     font-size: 18px;
 }
 
@@ -43,8 +51,8 @@ a {
 .below-logo {
     display: flex;
     justify-content: space-between;   
-    background: linear-gradient(#081422dc 25%, #000208 75%);
-    height: 400px;
+    background: linear-gradient(#081422dc 10%, #000208 75%);
+    height: 600px;
     
 }
 
@@ -81,4 +89,42 @@ a:hover {
 
 .first-img img:hover {
   transform: scale(1.05);
+}
+
+.aboutexperience{
+    height: 460px;
+    background-color: #061224;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 100px;
+
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.aboutme-title{
+    font-size: 32px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+hr {
+  border: none;
+  height: 1.5px;
+  background-color: white; /* or any visible color */
+  margin: 7px 0;
+  width: 100%;
+}
+
+.experience-title{
+    font-size: 32px;
 }
