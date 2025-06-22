@@ -92,11 +92,11 @@ a:hover {
 }
 
 .aboutexperience{
-    height: 460px;
-    background-color: #061224;
+    min-height: 10vh;
+    background-color: #213448;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 80px;
     gap: 100px;
 
 }
@@ -127,4 +127,89 @@ hr {
 
 .experience-title{
     font-size: 32px;
+}
+
+.card {
+  background-color: #94B4C1;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  width: 260px;
+  height: 130px;
+  padding: 48px;
+  margin: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border-radius: 25px;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  background-color: #7d9eaa; /* slightly darker on hover */
+  cursor: pointer;
+}
+
+
+.projects{
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #547792;
+    padding: 80px;
+    gap: 30px;
+
+}
+
+.belowprojecttitle{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #547792;
+    justify-content: center;
+}
+
+.projecttitle{
+    font-size: 32px;
+
+}
+
+.contacts{
+    display: flex;
+    background-color: #ECEFCA;
+    min-height: 280px;
+    padding: 80px;
+    flex-direction: column;
+    color: #213448;
+}
+
+
+.contacttitle{
+    font-size: 32px;
+    color: #213448;
+
+}
+
+.darkhr {
+  border: none;
+  height: 1.5px;
+  background-color: #213448; /* dark navy */
+  margin: 7px 0;
+  width: 100%;
+}
+
+.actualcontact{
+    display: flex;
+}
+
+.card2 {
+  background: linear-gradient(to bottom, #213448 80%, white 20%);
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  width: 160px;
+  height: 160px;
+  padding: 48px;
+  margin: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border-radius: 25px;
+}
+
+.card2:hover {
+  transform: scale(1.04);
+  background-color: #7d9eaa; /* slightly darker on hover */
+  cursor: pointer;
 }
