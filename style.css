@@ -195,10 +195,11 @@ hr {
 
 .actualcontact{
     display: flex;
+    justify-content: center;
 }
 
 .card2 {
-  background: linear-gradient(to bottom, #213448 80%, white 20%);
+  background: linear-gradient(to bottom, #94B4C1 80%, white 20%);
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   width: 160px;
   height: 160px;
@@ -206,10 +207,31 @@ hr {
   margin: 20px;
   transition: transform 0.3s ease, background-color 0.3s ease;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
 }
 
 .card2:hover {
   transform: scale(1.04);
   background-color: #7d9eaa; /* slightly darker on hover */
   cursor: pointer;
+}
+
+
+button{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.contactlabel {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
